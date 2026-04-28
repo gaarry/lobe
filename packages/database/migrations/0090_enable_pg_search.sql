@@ -1,2 +1,3 @@
 -- Custom SQL migration file, put your code below! --
-CREATE EXTENSION IF NOT EXISTS pg_search;
+-- DISABLED: pg_trgm (required by pg_search) is deprecated on Neon
+-- CREATE EXTENSION IF NOT EXISTS pg_search;
